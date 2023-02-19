@@ -1,0 +1,28 @@
+* {
+    background-color:white;
+}
+
+#parentDiv {
+    width: 20%;
+    margin: auto;
+    margin-top: 150px;
+    background-color: brown;
+    padding: 30px 30px 50px 30px;
+    text-align: center;
+}
+
+#parentDiv p,
+#parentDiv a {
+    font-size: 23px;
+    font-weight: 600;
+    color:white;
+    background-color: brown;
+}
+
+#parentDiv a {
+    text-decoration: none;
+    color: white;
+    background-color:green;
+    padding: 7px 15px;
+    border-radius: 5px;
+}

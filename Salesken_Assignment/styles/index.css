@@ -1,0 +1,46 @@
+* {
+    background-color: #fff;
+}
+
+#formid {
+    width: 30%;
+    margin: auto;
+    margin-top: 150px;
+    padding: 40px 60px 40px 40px;
+    background-color: brown;
+    box-shadow: 0 0 10px black;
+}
+
+#formid input {
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 10px 15px;
+    font-size: 25px;
+}
+
+#formid input,
+textarea {
+    background-color: white;
+}
+
+#formid #loginBtn {
+    width: 107%;
+    background-color:black;
+    color: white;
+    cursor: pointer;
+}
+
+#formid .signupLink,
+#formid .signupLink a {
+    background-color:brown;
+    font-size: 18px;
+}
+
+#formid .signupLink {
+    margin-left: 5px;
+}
+
+#formid .signupLink a {
+    color: white;
+}

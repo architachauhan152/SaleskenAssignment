@@ -1,0 +1,43 @@
+* {
+    background-color: skyblue;
+    font-weight: 600;
+}
+
+#parentDiv {
+    width: 40%;
+    margin: auto;
+    margin-top: 100px;
+    background-color:brown;
+    padding: 30px;
+    box-shadow: 0 0 10px black;
+}
+
+#question {
+    font-size: 20px;
+    background-color: brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+
+#parentDiv>button {
+    margin-top: 15px;
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+#parentDiv .selectedAns {
+    border: 2px solid black;
+    box-shadow: 0 0 10px black;
+}
+
+#parentDiv #skipbtn,
+#parentDiv #submitbtn {
+    width: 40%;
+    margin-left: 6%;
+    background-color: black;
+    color:#fff;
+    border: none;
+}
